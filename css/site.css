@@ -22,10 +22,20 @@ p {
   text-indent: 50px;
 }
 
-#image {
-  position: absolute;
-  top: 25%;
-  left: 50%;
+ul {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #66aaff;
+  text-indent: 50px;
+}
+
+li {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #66aaff;
+  text-indent: 50px;
+}
+
+#my-portrait {
+  width: 300px;
 }
 
 div.content {
@@ -36,17 +46,13 @@ div.content {
   margin: 10px;
   border: 5px solid #000000;
   font-size: 20px;
-  position: absolute;
-  top: 25%;
 }
 
-div.links {
+div.assignments {
   background-color: #facade;
   width: 25%;
   padding: 25px;
   margin: 10px;
   border: 5px solid #000000;
   font-size: 18px;
-  position: absolute;
-  top: 105%;
 }

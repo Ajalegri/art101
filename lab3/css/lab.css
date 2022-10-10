@@ -1,0 +1,13 @@
+div.content {
+  background-color: #deface;
+  width: 70%;
+  min-height: 300px;
+  padding: 25px;
+  margin: 10px;
+  border: 5px solid #000000;
+  font-size: 20px;
+}
+
+#screenshots {
+  width: 30%;
+}
