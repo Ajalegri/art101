@@ -2,36 +2,98 @@ h1 {
   font-family: "papyrus";
   font-size: 400%;
   color: black;
+  margin: 20px;
 }
 
 h2 {
   font-family: "papyrus";
   font-size: 200%;
   color: black;
+  margin: 20px;
 }
 
 h3 {
   font-family: "papyrus";
   font-size: 150%;
   color: black;
+  margin: 20px;
 }
 
 p {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  color: #777777;
+  color: #333;
   text-indent: 50px;
+  margin: 20px;
 }
 
 ul {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: #66aaff;
   text-indent: 50px;
+  margin: 20px;
 }
 
 li {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: #66aaff;
   text-indent: 50px;
+  margin: 20px;
+}
+
+table {
+  margin: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+input {
+  border: 2px solid #000;
+  color: #000;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: #facade;
+}
+input:focus {
+  background-color: #deface;
+  outline: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button {
+  margin: 20px;
+  appearance: none;
+  background-color: #deface;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+button:hover {
+  background-color: #cde9bd;
+}
+
+button:active {
+  background-color: #facade;
 }
 
 #my-portrait {
@@ -43,7 +105,7 @@ div.content {
   width: 40%;
   min-height: 300px;
   padding: 25px;
-  margin: 10px;
+  margin: 20px;
   border: 5px solid #000000;
   font-size: 20px;
 }
@@ -52,7 +114,7 @@ div.assignments {
   background-color: #facade;
   width: 25%;
   padding: 25px;
-  margin: 10px;
+  margin: 20px;
   border: 5px solid #000000;
   font-size: 18px;
 }

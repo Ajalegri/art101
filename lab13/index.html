@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 13 - Loops</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src="js/lab.js" defer></script>
+</head>
+<body>
+
+	<div class="content">
+		<h1>Lab 13: Loops</h1>
+		<h2>Challenges</h2>
+		<p>Working with a partner, experiment with loops.</p>
+		<h2>Problems</h2>
+		<p>It took a while to figure out CSS formatting for the results.</p>
+		<h2>Results</h2>
+		<p>I made this thing below! I made it able to take 5 inputs and protect against inputs above 10000 (since apparently setting the max in a number field doesn't prevent manually entering a number higher than it. My CPU cried).</p>
+	</div>
+
+	<div id="input">
+		<h2>Fizzy!</h2>
+		<p>When should I stop? <input id="inputMax" type="number" min="50" max="10000"></p>
+		<p>Select some factors and what they print:</p>
+		<table>
+			<tbody>
+				<tr>
+					<td>Factor</td>
+					<td>What to Print</td>
+				</tr>
+				<tr>
+					<td><input id="num0" type="number" min="0" max="50"></td>
+					<td><input id="text0" type="text" maxlength="5"></td>
+				</tr>
+				<tr>
+					<td><input id="num1" type="number" min="0" max="50"></td>
+					<td><input id="text1" type="text" maxlength="5"></td>
+				</tr>
+				<tr>
+					<td><input id="num2" type="number" min="0" max="50"></td>
+					<td><input id="text2" type="text" maxlength="5"></td>
+				</tr>
+				<tr>
+					<td><input id="num3" type="number" min="0" max="50"></td>
+					<td><input id="text3" type="text" maxlength="5"></td>
+				</tr>
+				<tr>
+					<td><input id="num4" type="number" min="0" max="50"></td>
+					<td><input id="text4" type="text" maxlength="5"></td>
+				</tr>
+			</tbody>
+		</table>
+		<button id="go">Go!</button>
+		<div id="output">
+			<h2>Output</h2>
+		</div>
+	</div>
+
+</body>
+</html>
